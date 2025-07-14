@@ -1,0 +1,368 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    display:flex;
+    background-color:#3b3d42;
+    padding-left:  100px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    top: 0;
+}
+
+.logo img{
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 120px;
+}
+
+.support{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 350px;
+
+}
+.support img{
+    height:25px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+
+.support:hover{
+    background-color: black;
+}
+
+.support p{
+    margin-left: 7px;
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+    
+
+}
+
+.search{
+    margin-left: 50px;
+}
+.search-box{
+    height: 45px;
+    width: 350px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    border-color:white;
+
+}
+.search-button {
+    background-image: url('https://img.icons8.com/?size=100&id=132&format=png&color=000000');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 53px;
+    width: 53px;
+    margin-top: -66px;
+    margin-left: 355px;
+    background-color: white;
+}
+
+
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom:4px;
+   
+}
+
+.nav-bar a{
+    font-size: 14px;
+    text-decoration: none;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+}
+.nav-bar a:hover {
+    background-color:black;
+    color:white;
+}
+
+.section1{
+    background-image: url(https://newellbrands.imgix.net/239b6e62-192f-37fb-a53b-de3ed8fa7aba/239b6e62-192f-37fb-a53b-de3ed8fa7aba.jpg?fm=jpg&q=85&w=2084);
+}
+.section1,.section5{
+    background-repeat: no-repeat;
+    background-size: 1550px;
+    background-position: 0% 85%;
+    height: 79vh;
+}
+.section1-text-box{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    margin-left: 220px;
+
+}
+
+.section1-text-box h1{
+    font-size: 50px;
+    margin-top: 200px;
+    font-weight: 220px;
+}
+
+.para1 {    
+    margin-left: -2px;
+    margin-top: -30px;
+    font-size: 20px;
+    width: 40%;
+}
+
+.btn1 {
+    height: 50px;
+    width: 180px;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+    transition: 0.3s;
+    border: none;
+ }
+
+ .space{
+    height: 40px;
+    width: 100%;
+}
+
+.image img{
+    height: 80vh;
+    width: 725px ;
+    margin-left:12px;
+}
+
+
+
+
+.section2{
+   display: flex;
+   width: 100%;
+   margin-bottom: 10px;
+}
+.image{
+  height:50%;
+  width: 50%;margin-left: -40px;
+
+
+}
+.content{
+    height: 50%;
+    width: 50%;
+    }
+
+.content h1{
+    font-size: 40px;
+    width: 40%;
+}
+
+.content-box{
+    margin-top: 200px;
+}
+.content p{
+    width: 50%;
+    font-size: 18px;
+}
+
+.btn2{
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    transition: 0.3s;
+}
+.content-box h1,p,.btn2{
+    margin-left: 180px;
+}
+
+.space2{
+    height: 10px;
+}
+.section3,.section4{
+    display: flex;
+}
+
+.section3 .content {
+  margin-right: 15px;
+}
+
+.section5{
+    background-image: url('https://newellbrands.imgix.net/52e964bb-e423-3575-8938-38b43f2117a1/52e964bb-e423-3575-8938-38b43f2117a1.jpg?fm=jpg&q=85&w=2084');
+    height: 65vh;
+}
+
+.section5 h1,.section6 h1{
+    margin-top: 140px;
+}
+
+.section6{
+    background-image: url('https://newellbrands.imgix.net/8d764b37-c839-386f-8c15-fffca06b1700/8d764b37-c839-386f-8c15-fffca06b1700.jpg?fm=jpg&q=85&w=2084');
+    height: 65vh;
+    background-size: cover;
+    background-position: 0% 85%;
+}
+
+.section7 {
+    height: 320px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section7 h2{
+    font-weight: 500;
+}
+.experience-component{
+    width: 615px;
+    margin-top: 20px;
+    line-height: 25px; 
+}
+
+
+
+.experience-component{
+    width: 615px;
+    margin-top: 20px;
+    line-height: 25px; 
+}
+
+.back-to-top{
+    padding: 16px 0px;
+}
+
+.back-to-top a{
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+    display: flex;
+    justify-content: center;
+}
+
+.back-to-top a:hover{
+    text-decoration: underline;
+    color: black ;
+}
+
+.home-email-signup{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 220px 0px ;
+}
+
+.email-container{
+    height: 150px;
+    width: 500px;
+    margin-top: 20px;
+}
+.email input{
+    padding: 15px 50px ;
+}
+
+.email button{
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    margin-left: -20px;
+}
+
+.email-terms{
+    margin-left: -180px;
+    font-size: 12px;
+    width: 110%;
+    line-height: 20px;
+}
+.social img{
+    height: 35px;
+}
+.footer{
+    height: 700px;
+}
+
+.footer-containers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.container {
+    height: 250px;
+    width: 200px;
+}
+
+.container li{
+    list-style: none;
+
+}
+
+.container a{
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+    line-height: 25px;
+    font-size: 12px;
+}
+.container a:hover{
+     text-decoration: underline;
+    color: black ;
+}
+
+.space3{
+    width: 100%;
+    height: 10px;
+    background-color: lightgray;
+    margin-top: 80px ;
+}
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    margin-top: 30px;
+
+    padding: 0px 10px 20px 10px;
+
+}
+
+.country img{
+    height: 25px;
+}
+.country a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px
+}
+
+.country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.ctext{
+    font-size: 12px;
+    margin-left: -260px;
+}
+
+.btn1:hover{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
